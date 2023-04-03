@@ -1,5 +1,6 @@
 //incluir as bibliotecas para lerem os comandos
 #include <iostream>
+//segunda biblioteca padrao
 #include <stdlib.h>
 using namespace std;
 // declarar as variaveis em double
