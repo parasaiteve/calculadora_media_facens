@@ -29,11 +29,14 @@ int main() {
         //usar if para o usuario saber se foi aprovado ou nao
         if(soma >= 5){
             cout << "parabens! voce foi aprovado!" << endl;
+        //else if para caso o usuario estiver de recuperacao
         }else if ( soma >= 3){
             cout << "ops, voce esta de recuperacao, devera fazer a substitutiva";
+        //else para caso o usuario for reprovado    
         } else {
         cout << "eita! voce foi reprovado!" << endl;
         } 
+        //interface caso o usuario queira continuar
         cout << "deseja continuar? (s/n) >>> ";
         cin >> continuar;
     }
