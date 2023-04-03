@@ -32,7 +32,7 @@ int main() {
             cout << "parabens! voce foi aprovado!" << endl;
         //else if para caso o usuario estiver de recuperacao
         }else if ( soma >= 3){
-            cout << "ops, voce esta de recuperacao, devera fazer a substitutiva";
+            cout << "ops, voce esta de recuperacao, devera fazer a substitutiva"; << endl
         //else para caso o usuario for reprovado    
         } else {
         cout << "eita! voce foi reprovado!" << endl;
