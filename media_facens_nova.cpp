@@ -9,7 +9,9 @@ int main() {
 
     while (continuar == 's'|| continuar == 'S') {
        double RA, ac1, ac2, af, ag;
+       //interface vai pedir ao aluno seu RA
        cout << "digite su RA >>>";
+       //o programa vai ler o RA
        cin >> RA;
        //interface vai pedir a nota para o usuario
        cout << "digite a sua primeira nota do semestre >>> ";
