@@ -1,14 +1,16 @@
 //incluir as bibliotecas para lerem os comandos
 #include <iostream>
-//segunda biblioteca padrao
 #include <stdlib.h>
 using namespace std;
 // declarar as variaveis em double
 int main() {
+    float RA;
     char continuar = 's';
-    // usar while para fazer o codigo sem parar
+
     while (continuar == 's'|| continuar == 'S') {
-       double ac1, ac2, af, ag;
+       double RA, ac1, ac2, af, ag;
+       cout << "digite su RA >>>";
+       cin >> RA;
        //interface vai pedir a nota para o usuario
        cout << "digite a sua primeira nota do semestre >>> ";
         // o programa vai ler o valor
@@ -30,14 +32,11 @@ int main() {
         //usar if para o usuario saber se foi aprovado ou nao
         if(soma >= 5){
             cout << "parabens! voce foi aprovado!" << endl;
-        //else if para caso o usuario estiver de recuperacao
         }else if ( soma >= 3){
-            cout << "ops, voce esta de recuperacao, devera fazer a substitutiva"; << endl
-        //else para caso o usuario for reprovado    
+            cout << "ops, voce esta de recuperacao, devera fazer a substitutiva" << endl;
         } else {
         cout << "eita! voce foi reprovado!" << endl;
         } 
-        //interface caso o usuario queira continuar
         cout << "deseja continuar? (s/n) >>> ";
         cin >> continuar;
     }
