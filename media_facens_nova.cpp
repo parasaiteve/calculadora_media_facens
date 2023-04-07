@@ -2,7 +2,7 @@
 #include <iostream>
 #include <stdlib.h>
 using namespace std;
-// declarar as variaveis
+// declarar as variaveis 
 int main() {
     float RA;
     char continuar = 's';
