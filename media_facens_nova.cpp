@@ -6,11 +6,16 @@ using namespace std;
 int main() {
     float RA;
     char continuar = 's';
+    string name;
 
     while (continuar == 's'|| continuar == 'S') {
        double RA, ac1, ac2, af, ag;
+        //interface vai pedir o nome do aluno
+        cout << "digite seu nome >>> ";
+        //o programa vai ler o nome
+        cin >> name;
        //interface vai pedir ao aluno seu RA
-       cout << "digite su RA >>>";
+       cout << "digite seu RA >>>";
        //o programa vai ler o RA
        cin >> RA;
        //interface vai pedir a nota para o usuario
